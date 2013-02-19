@@ -1,0 +1,3 @@
+ATTRS{idProduct}=="2008",ATTRS{idVendor}=="0557",MODE="666",GROUP="turtlebot"
+ATTRS{idProduct}=="6001",ATTRS{idVendor}=="0403",MODE="666",GROUP="turtlebot"
+

@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb",KERNEL=="ttyACM[0-9]*",ATTRS{idVendor}=="2341",ATTRS{idProduct}=="0001",ATTRS{serial}=="649383233313511011A0",SYMLINK+="uno_rev2",MODE="666",GROUP="turtlebot"
