@@ -1,0 +1,11 @@
+<launch>
+
+  <!-- Turtlebot Laptop Battery Diagnostics -->
+  <node pkg="rosserial_python" type="serial_node.py" name="rosserial_lipo" output="screen">
+    <param name="~port" value="/dev/uno_rev2" />
+    <param name="~baud" value="57600" />
+  </node>
+  <node pkg="turtlebot_lipo" type="turtlebot_lipo_diag.py" name="turtlebot_lipo_diag">
+  </node>
+
+</launch>
