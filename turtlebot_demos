@@ -1,0 +1,28 @@
+These commands are run from the Control PC once it is connected to the ad-hoc wireless created by the ZBox/Robot on boot.
+
+
+Term 1
+------
+source turtle_controlPC_script.sh
+rostopic list
+rosrun turtlebot_dashboard turtlebot_dashboard&
+
+Once dashboard is running, check battery is displayed.
+Then set run mode to full.
+
+
+Term 2
+------
+source turtle_controlPC_script.sh
+roslaunch turtlebot_teleop keyboard_teleop.launch
+
+Using the keyboard should move the robot
+
+
+Term 3
+------
+source turtle_controlPC_script.sh
+roslaunch turtlebot_bringup kinect.launch
+rosrun rviz rviz
+
+Of course, this only works if kinect is set up
